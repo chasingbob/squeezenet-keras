@@ -11,7 +11,6 @@ def main():
     nb_class = 2
     width, height = 224, 224
 
-
     sn = model.SqueezeNet(nb_classes=nb_class, inputs=(3, height, width))
 
     print('Build model')
@@ -19,6 +18,8 @@ def main():
     sgd = SGD(lr=0.001, decay=0.0002, momentum=0.9, nesterov=True)
     sn.compile(
         optimizer=sgd, loss='categorical_crossentropy', metrics=['accuracy'])
+
+    print(sn.summary())
 
     # Training
     train_data_dir = 'data/train'
