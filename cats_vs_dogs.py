@@ -25,7 +25,7 @@ def main():
     validation_data_dir = 'data/validation'
     nb_train_samples = 2000
     nb_validation_samples = 800
-    nb_epoch = 1000
+    nb_epoch = 500
 
     #   Generator
     train_datagen = ImageDataGenerator(
@@ -67,7 +67,7 @@ def main():
             nb_epoch=nb_epoch,
             validation_data=validation_generator,
             nb_val_samples=nb_validation_samples, 
-            callbacks=[plotter, early_stopping, checkpoint])
+            callbacks=[plotter, checkpoint])
 
     sn.save_weights('weights.h5')
 
