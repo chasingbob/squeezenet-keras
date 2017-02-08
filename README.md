@@ -9,7 +9,7 @@ SqueezeNet's claim to fame is getting AlexNet level accuracy using far less para
 I have spent almost no time in trying to find the optimal hyper parameters and have intiuitively gone for SGD for a small decay factor. The graph below show steady training before 
 the training accuracy seperates from the validation accuracy peaking at around +/-0.8 accuracy. Pretty impressive on a small data set (2000 training images). 
 
-![SqueezeNet Training]('training_acc_loss.png')
+![SqueezeNet Training](training_acc_loss.png)
 
 What I am even more interested in is in the size and complexity of the model. 
 The Keras implemented model has ~736000 parameters and takes up 3MB in diskspace when saving weights only. To put that in comparison, a Keras VGG16 implementation I use 
