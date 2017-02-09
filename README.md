@@ -12,7 +12,7 @@ Even more impressive though is the number of parameters and the size of the weig
 3MB of diskspace. To put in perspective compare to a VGG16 model that uses 138 million parameters and a weights file when saved to disk of over 500MB. Magnitudes smaller.
 
 The reduced dependency on resources by the SqueezeNet architecture is exciting because it opens up a world where you can do Deep Learning on a small form factor computer like a 
-Raspberry Pi. 
+Raspberry Pi.  
 
 
 
