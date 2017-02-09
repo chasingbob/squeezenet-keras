@@ -2,9 +2,10 @@
 
 I'm surprised **SqueezeNet** has generated so little hype in the media - it promises **AlexNet** accuracy with 50x fewer parameters. That is exciting, right? Let's put it to the test.
 
-For the demo I used the Keras implementation of the Kaggle Dogs vs. Cats dataset as base. I didn't spent much time fine tuning the hyper parameters and have 
-intiuitively gone for a SGD optimizer with a small learning rate. As can be seen from the graph below training progressed steadily before the training accuracy seperates 
-from the validation accuracy peaking at around +/-0.8 accuracy. Pretty impressive on a small data set of only 2000 training images.
+For the demo I used the Keras implementation of the Kaggle Dogs vs. Cats dataset as base and the [DT42](https://github.com/DT42/squeezenet_demo/blob/master/model.py) implementation 
+of the **SqueezeNet** architecture. I didn't spent much time fine tuning the hyper parameters and have intiuitively gone for a SGD optimizer with a small learning rate. As can be 
+seen from the graph below training progressed steadily before the training accuracy seperates from the validation accuracy peaking at around +/-0.8 accuracy. Pretty impressive on 
+a small data set of only 2000 training images.
 
 ![SqueezeNet Training](training_acc_loss.png)
 
