@@ -1,6 +1,7 @@
 #SqueezeNet Keras Dogs vs. Cats demo
 
-I'm surprised **SqueezeNet** has generated so little hype in the media - it promises **AlexNet** accuracy with 50x fewer parameters. That is exciting, right? Let's put it to the test.
+I'm surprised **SqueezeNet** has generated so little hype in the Deep Learning community - it promises **AlexNet** accuracy with 50x fewer parameters. That is exciting, right? Let's 
+put it to the test.
 
 For the demo I used the Keras implementation of the Kaggle Dogs vs. Cats dataset as base and the [DT42](https://github.com/DT42/squeezenet_demo/blob/master/model.py) implementation 
 of the **SqueezeNet** architecture. I didn't spent much time fine tuning the hyper parameters and have intiuitively gone for a SGD optimizer with a small learning rate. As can be 
