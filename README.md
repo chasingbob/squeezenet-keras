@@ -1,6 +1,6 @@
 #SqueezeNet Keras Dogs vs. Cats demo
 
-I'm supprised SqueezeNet has generated so little hype in the media - it promises AlexNet accuracy with 50x fewer parameters. That is exciting, right? Let's put it to the test.
+I'm surprised **SqueezeNet** has generated so little hype in the media - it promises **AlexNet** accuracy with 50x fewer parameters. That is exciting, right? Let's put it to the test.
 
 For the demo I used the Keras implementation of the Kaggle Dogs vs. Cats dataset as base. I didn't spent much time fine tuning the hyper parameters and have 
 intiuitively gone for a SGD optimizer with a small learning rate. As can be seen from the graph below training progressed steadily before the training accuracy seperates 
@@ -19,6 +19,8 @@ Raspberry Pi.
 
 ###References:
 [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and ,0.5MB model size](https://arxiv.org/abs/1602.07360)
+
+[GitHub: DeepScale/SqueezeNet](https://github.com/DeepScale/SqueezeNet)
 
 [Dogs vs. Cats Redux: Kernels Edition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
 
