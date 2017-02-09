@@ -12,7 +12,7 @@ Even more impressive though is the number of parameters and the size of the weig
 3MB of diskspace. To put in perspective compare to a VGG16 model that uses 138 million parameters and a weights file when saved to disk of over 500MB. Magnitudes smaller.
 
 This might not mean much in a server-side world where processing power is scallable and memory cheap, but if you are looking at using **Deep Learning** on small form factor computers,
-e.g. a **Raspberry Pi** this is exciting. 
+e.g. a **Raspberry Pi**, this is exciting. 
 
 
 
