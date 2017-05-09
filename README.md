@@ -1,4 +1,4 @@
-#SqueezeNet Keras Dogs vs. Cats demo
+# SqueezeNet Keras Dogs vs. Cats demo
 
 I'm surprised **SqueezeNet** has generated so little hype in the Deep Learning community - it promises **AlexNet** accuracy with 50x fewer parameters. That is exciting, right? Let's 
 put it to the test.
@@ -20,7 +20,8 @@ e.g. a **Raspberry Pi**, this is exciting.
 
 
 
-###References:
+### References:
+
 [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and ,0.5MB model size](https://arxiv.org/abs/1602.07360)
 
 [GitHub: DeepScale/SqueezeNet](https://github.com/DeepScale/SqueezeNet)
