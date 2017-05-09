@@ -7,9 +7,11 @@ from keras.layers import AveragePooling2D
 
 def SqueezeNet(nb_classes, inputs=(3, 224, 224)):
     """ Keras Implementation of SqueezeNet(arXiv 1602.07360)
-    @param nb_classes: total number of final categories
+
     Arguments:
-    inputs -- shape of the input images (channel, cols, rows)
+        nb_classes: total number of final categories
+        
+        inputs -- shape of the input images (channel, cols, rows)
     """
 
     input_img = Input(shape=inputs)
